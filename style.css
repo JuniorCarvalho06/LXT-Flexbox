@@ -1,0 +1,40 @@
+.container{
+    border: 5px solid #ffcc5c;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+
+.container div{
+    margin: 10px;
+    text-align: center;
+    font-size: 2em;
+    color: white;
+}
+
+.item1{
+    background-color: brown;
+}
+
+.item2{
+    background-color: purple;
+}
+
+.item3{
+    background-color: black;
+}
+
+ @media screen and (min-width: 100px) and (max-width: 500px) {
+
+    .container{
+        border: 5px solid #ffcc5c;
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+
+
+
+
